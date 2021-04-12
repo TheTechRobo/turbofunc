@@ -1,4 +1,4 @@
-version = "1.1"
+version = "1.2"
 
 from setuptools import setup
 
@@ -9,8 +9,6 @@ import sys
 
 # **Python version check**
 # Source: https://github.com/ipython/ipython/blob/6a3e2db0c299dc05e636653c4a43d0aa756fb1c8/setup.py#L23-L58
-# This check is also made in mathmod/__init__, don't forget to update both when
-# changing Python version requirements.
 if sys.version_info < (3, 4):
     pip_message = 'This may be due to an out of date pip. Make sure you have pip >= 9.0.1.'
     try:
