@@ -1,3 +1,5 @@
+version = "1.0.1"
+
 from setuptools import setup
 
 with open("README.md", "r") as file:
@@ -36,7 +38,7 @@ Python {py} detected.
 
 setup(
     name='turbofunc',
-    version='1.0',
+    version=version,
     description='simple functions for clearing the screen, getting a single keystroke, and making text stand out',
     long_description=long_desc,
     license='Apache 2.0',
