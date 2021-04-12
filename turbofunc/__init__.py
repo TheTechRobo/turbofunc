@@ -1,6 +1,6 @@
-from clearscreen import *
-from pressanykey import *
-from standtextout import *
+from .clearscreen import *
+from .pressanykey import *
+from .standtextout import *
 
 """
 FUNCTIONS
