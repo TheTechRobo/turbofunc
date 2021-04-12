@@ -25,9 +25,11 @@ FUNCTIONS
         Will return the finished string so you can output it the way you want.
 pressanykey(string='Press any key to continue...', verbose=True)
         SOURCE: https://raw.githubusercontent.com/TheTechRobo/python-text-calculator/master/FOR%20CLEARING%20THE%20SCREEN%20AND%20PRESS%20ANY%20KEY%20TO%20CONTINUE.md
-    multiprint(stuffToPrint, *args, **kwargs)
+    multiprint(stuffToPrint, _=None, **kwargs)
         Accepts a dictionary. With key/value pairs text/function.
         For example, you might pass {"Welcome to ": cprint.info, "Palc": cprint.ok, "!" + MANYSPACE: cprint.info}
         which will run cprint.info("Welcome to ");cprint.ok("Palc");cprint.info("!" + MANYSPACE)
-        The *args and **kwargs are given to EVERY function. Useful as an "end=True" or similar.
+        Setting gettext to True will run whateverFunctionYouPassed(_(item), *args, **kwargs) instead of just whateverFunctionYouPassed(item, *args, **kwargs). 
+        The **kwargs is given to EVERY function. Useful as an "end=True" or similar.
+
 """
