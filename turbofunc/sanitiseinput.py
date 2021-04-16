@@ -1,4 +1,4 @@
-def CleanInput(inp, customRules, appendList=True):
+def CleanInput(inp, customRules=[], appendList=True):
     """
     Still not perfect, but gets rid of the common culprits (\, ', and zero-width space), and strip()s the text.
     Then, you can add a list as the second argument (optional) which allows you to add more stuff.
