@@ -6,7 +6,7 @@ except ImportError:
     import tty
     import termios
     windows = False
-def pressanykey(string="Press any key to continue...", verbose=True, crashOnFailure=True):
+def pressanykey(string="Press any key to continue...", verbose=True, crashOnFailure=False):
     """
     SOURCE: https://raw.githubusercontent.com/TheTechRobo/python-text-calculator/master/FOR%20CLEARING%20THE%20SCREEN%20AND%20PRESS%20ANY%20KEY%20TO%20CONTINUE.md
     Setting verbose to True will cause the function to output a warning message with print() when it fails.
