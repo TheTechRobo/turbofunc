@@ -14,3 +14,5 @@ Which will show you the available submodules. You can find _their_ docs with:
 import turbofunc.whatever
 help(turbofunc.whatever)
 ```
+
+For some credits, see source.md
